@@ -1,0 +1,68 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+    background: linear-gradient(25deg, rgb(3, 38, 18),rgba(44, 142, 87, 08),rgb(1, 40, 18));
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: goldenrod;
+    text-shadow: 5px 5px black;
+}
+
+#message-el {
+    font-weight: bolder;
+    padding: 1rem;
+    font-size: 1.3em;
+    color: yellow;
+}
+
+.container {
+    background-image: url("./Assets/img/chips.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    border: 5px rgb(4, 39, 4) dotted;
+    height: 90vh;
+    width: 90%;
+    margin: 5rem auto;
+   
+}
+
+.container-el {
+    background-image: url("./Assets/img/table.png");
+    width: 90%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: red solid 2px;
+    margin: 8% auto;
+  
+}
+
+button {
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    background: goldenrod;
+    color: #016f32;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.btn-card {
+    display: block;
+    margin: 10px auto;
+}
